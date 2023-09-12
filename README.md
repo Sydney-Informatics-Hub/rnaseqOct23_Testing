@@ -21,16 +21,37 @@ Provide instructions on how to use the repository for your project. For example:
 
 ## Environment set up 
 
-Brief summary of what environment you're working in, any dependencies, installation, configuration required. 
-
 ### Compute environment 
 
-Set up instructions relevant to the compute platform. 
+All testing for this workshop is being performed on Pawsey's Nimbus cloud. VMs are 2c.8r with 40Gb of disk. To create an instance:
+
+* Open Nimbus dashboard 
+* Navigate to rnaseq-workshop project in the top menu drop down 
+* Add the 8787 network port for Rstudio (this was done for whole project)
+    * In side menu go to Network > Security Group
+    * Follow instructions [here](https://support.pawsey.org.au/documentation/display/US/Run+RStudio+Interactively#)
+* Create an instance 
+    * In side menu go to Compute > Instances > Launch Instance
+    * Provide a name for the instance 
+    * Source: Pawsey Bio - Ubuntu 22.04 - 2023-06
+    * Flavour: n3.2c8r
+    * Networks: Public external
+    * Security Groups: port 8787, rnaseq-workshop-SSH-ICMP
+    * Keypair: either specify existing or make a new one and save to your local machine
+    * Launch instance
 
 ### Test data 
 
-Description of test datasets, where/how to access them. 
+Testing with 2022 rnaseq workshop material on CVMFS. To access from the Nimbus CLI: 
+
+```bash
+ls /cvmfs/data.biocommons.aarnet.edu.au/training_materials/SIH_training/IntroRNAseq_0922/
+```
+
+* You will need to cache with (ls) before trying to use the files 
+* You cannot cd into CVMFS, it is read-only
 
 ## External resources 
 
-Links to resources consulted for this project. 
+* [nf-core/rnaseq](https://github.com/nf-core/rnaseq/tree/3.12.0)
+* [nf-core/tools](https://nf-co.re/tools)
