@@ -21,6 +21,11 @@ Provide instructions on how to use the repository for your project. For example:
 
 ## Environment set up 
 
+We are using Nimbus bioimage for the workshop. Using the following tools and versions:
+* nf-core/2.9 
+* singularity/3.8.7
+* nextflow/23.04.2.5870
+
 ### Compute environment 
 
 All testing for this workshop is being performed on Pawsey's Nimbus cloud. VMs are 2c.8r with 40Gb of disk. To create an instance:
