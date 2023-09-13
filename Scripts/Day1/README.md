@@ -62,3 +62,7 @@ nf-core download nf-core/rnaseq \
 * sys     0m3.185s
 
 Using a specified singularity cache (`$NXF_SINGULARITY_CACHEDIR`) available on all cloned VMs, we can reduce download time. 
+
+## nf-core workflow execution testing 
+
+
