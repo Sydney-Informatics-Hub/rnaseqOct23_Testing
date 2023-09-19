@@ -2,7 +2,6 @@
 
 * [2022 materials](https://sydney-informatics-hub.github.io/rna-seq-pt1-quarto/)
 
-
 ## **TODOs**
 
 * Restructure workshop materials 
@@ -128,10 +127,12 @@ Breakout rooms:
     * Explore the count matrix 
 
 Activities 
-* MultiQC report poll 
+* MultiQC report poll questions 
 * Nextflow reports 
 
 ## **Reports**
 
 Learning objectives: 
 * Learn how to interpret Nextflow workflow execution reports 
+
+Consider merging this section with the one above 
