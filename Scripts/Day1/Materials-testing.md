@@ -79,7 +79,7 @@ Nextflow and nf-core
 * Take some details re: workflow management systems from [here](https://sydney-informatics-hub.github.io/rna-seq-pt1-quarto/notebooks/2.0_intro_to_nextflow_and_nfcore.html)
 * Discuss nf-core params, tools, pipelines, documentation. As per the [customising nf-core workshop](https://sydney-informatics-hub.github.io/customising-nfcore-workshop/notebooks/2.1_design.html)
 
-Activity
+Activities
 * Create sample sheet 
 * Run help command 
 
@@ -121,6 +121,15 @@ Learning objectives:
 * Understand the process of mapping sequencing reads to a reference genome in a splice-aware manner 
 * Understand how mapped reads are used to quantify gene counts 
 * Learn how to read a MultiQC report 
+
+Breakout rooms: 
+* Read alignment and quantification 
+    * Mislabelled sample exercise 
+    * Explore the count matrix 
+
+Activities 
+* MultiQC report poll 
+* Nextflow reports 
 
 ## **Reports**
 
