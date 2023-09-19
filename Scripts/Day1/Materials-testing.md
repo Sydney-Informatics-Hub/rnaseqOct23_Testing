@@ -13,6 +13,8 @@
     * Tips and tricks
 * Fix samplesheet.csv strandedness 
 * Create case study diagram 
+* Prepare run commands 
+* Prepare activities for breakout rooms
 
 ## **Instance set up** 
 
