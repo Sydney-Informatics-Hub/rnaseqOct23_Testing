@@ -80,10 +80,10 @@ Or kill the process on the port:
 2) Remove containers you no longer need: `docker container rm CONTAINER_ID`  
 3) Clean the Singularity cache: `sudo singularity cache clean`  
 The above command
-- Is used to clean the Singularity cache.
-- Singularity caches container images to speed up subsequent container operations by storing images locally.
-- It will remove all cached container images from the cache directory.
-- **Note**: Running this command will delete all cached images, and you may need to re-download or rebuild the containers if they are required again in the future.
+    - Is used to clean the Singularity cache.  
+    - Singularity caches container images to speed up subsequent container operations by storing images locally.  
+    - It will remove all cached container images from the cache directory.  
+**Note**: Running this command will delete all cached images, and you may need to re-download or rebuild the containers if they are required again in the future.
 
 ### Summary
  - RStudio singularity container was updated.     
@@ -97,17 +97,16 @@ The above command
 - This error was observed only a few times during testing - Running thr RSever command.  
 - ERROR: `“FATAL:   container creation failed: mount /proc/self/fd/3->/usr/local/var/singularity/mnt/session/rootfs error: while mounting image /proc/self/fd/3: failed to find loop device: could not attach image file to loop device: no loop devices available”`    
 
-I have used the following solution identified from blogs/ChatGPT and it has worked for a few of us at SIH:  
+**Current workaround**  
 - Check if the loop module is `loaded: lsmod | grep loop`  
 - If the loop module is not listed, you can load it using the following command: `sudo modprobe loop`  
 - Verify the loop devices availability: `sudo losetup -f`  
-  
 - I remember encountering a similar error when I had tried running a nfcore workflow on another Nimbus instance.  
-- I had previously asked this same question to Audrey and she had provided the following solution
+- I had previously asked this same question to Pawsey helpdesk and they had provided the following solution
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Audrey Stott commented:
+Pawsey helpdesk commented:
 
 ```
 Hi Nandan
@@ -132,11 +131,11 @@ Let us know how you go or if you need any help.
 
 Kind regards
 
-Audrey
+Pawsey helpdesk
 ```
 
-Since the problem does not occur frequently (I have observed it only once on any of the instances I have worked so far). One of our collegues Giorgia has also encountered it on her insatnce. I have not tried the workaround as suggested by Audrey, yet.  
-Should we check with Audrey if this could be a possible issue on the trainee instances for the workshop and if we need to have any quick workarounds if this occures? 
+Since the problem does not occur frequently (I have observed it only once on any of the instances I have worked so far). One of our collegues Giorgia has also encountered it on her insatnce. I have not tried the workaround as suggested by Pawsey helpdesk, yet.  
+Should we check with Pawsey helpdesk if this could be a possible issue on the trainee instances for the workshop and if we need to have any quick workarounds if this occures? 
 
 
 
