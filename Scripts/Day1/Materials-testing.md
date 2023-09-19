@@ -44,7 +44,11 @@ Something like:
 
 ## **Intro to the case study**
 
-* Case study [paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2801-4)
+Learning objectives: 
+* Understand experimental design considerations for DE analysis 
+
+Case study 
+* [Corley et al. (2014) paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2801-4)
 
 We did not include case study section in 2022 day 1 materials:  
 * Explain traits associated with WBS
@@ -58,11 +62,34 @@ Poll questions
 
 ## **Intro to the workflow**
 
+Learning objectives: 
+* Understand the basic RNAseq DE data processing and analysis workflow 
+* Understand why Nextflow and nf-core are good options for reproducible and portable bioinformatics workflows
+* Understand in which situations the CLI is a suitable environment for RNAseq analysis 
+* Understand the nf-core/rnaseq pipeline structure 
+* Identify the default and required nf-core/rnaseq parameters
+
 ## **QC run command** 
+
+Learning objectives: 
+* Understand how to apply parameters to an nf-core pipeline to cusomise its execution
+* Understand the fastq file format 
+* Learn how to interpret a FastQC report for RNAseq data 
+* Learn about the benefits and drawbacks of read trimming for RNAseq-DE
 
 ## **Continue run command**
 
+Learning objectives: 
+* Understand how to apply parameters to an nf-core pipeline to cusomise its execution
+
 ## **Explore outputs**
+
+Learning objectives: 
+* Understand the process of mapping sequencing reads to a reference genome in a splice-aware manner 
+* Understand how mapped reads are used to quantify gene counts 
+* Learn how to read a MultiQC report 
 
 ## **Reports**
 
+Learning objectives: 
+* Learn how to interpret Nextflow workflow execution reports 
