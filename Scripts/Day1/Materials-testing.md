@@ -69,6 +69,20 @@ Learning objectives:
 * Understand the nf-core/rnaseq pipeline structure 
 * Identify the default and required nf-core/rnaseq parameters
 
+RNAseq workflow
+* Data processing (day 1) and analysis (day 2)
+* Explain the RNAseq-DE workflow and which stage we are starting day 1 at 
+* Explain [nf-core/rnaseq structure](https://sydney-informatics-hub.github.io/rna-seq-pt1-quarto/notebooks/2.1_nfcore-rnaseq.html#what-tools-and-processes-does-the-pipeline-run)
+
+Nextflow and nf-core 
+* Explain why we are using nf-core and working on CLI 
+* Take some details re: workflow management systems from [here](https://sydney-informatics-hub.github.io/rna-seq-pt1-quarto/notebooks/2.0_intro_to_nextflow_and_nfcore.html)
+* Discuss nf-core params, tools, pipelines, documentation. As per the [customising nf-core workshop](https://sydney-informatics-hub.github.io/customising-nfcore-workshop/notebooks/2.1_design.html)
+
+Activity
+* Create sample sheet 
+* Run help command 
+
 ## **QC run command** 
 
 Learning objectives: 
@@ -77,10 +91,29 @@ Learning objectives:
 * Learn how to interpret a FastQC report for RNAseq data 
 * Learn about the benefits and drawbacks of read trimming for RNAseq-DE
 
+Breakout rooms:
+* Pre-trim fastQC report questions
+    * How many sequences in one sample fq?
+    * How long are sequence reads? 
+    * Which part of the reads has the worst quality? 
+    * Is this a good dataset? Why or why not?
+    * Solutions to improve the quality? 
+* Post-trim QC 
+    * Which tool was used for trimming? 
+    * Which tool generated quality reports before and after trimming?
+    * What effect did trimming have? 
+
 ## **Continue run command**
 
 Learning objectives: 
 * Understand how to apply parameters to an nf-core pipeline to cusomise its execution
+* Understand the nf-core workflow execution standard output 
+
+Activity
+* Select parameters for RNAseq run including alignment tool, quantification tool 
+* Execute the workflow 
+* Look through execution standard output 
+* Q&A
 
 ## **Explore outputs**
 
