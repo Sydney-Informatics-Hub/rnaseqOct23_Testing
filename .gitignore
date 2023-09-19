@@ -1,2 +1,6 @@
 nf-core-rnaseq_3.12.0/
 singularity-images/
+WBS-mouse
+WBS-mouse-QC
+work
+.nextflow*

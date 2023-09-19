@@ -1,4 +1,4 @@
-# test-template-bio
+# RNAseq workshop 2023 testing
 
 A short description of what this repository is for, which project it is linked to. 
 
