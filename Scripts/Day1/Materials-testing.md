@@ -6,8 +6,8 @@
 
 * Restructure workshop materials 
     * Introduction
-    * Set up
-    * Case study
+    * Set up 
+    * Case study 
     * Day 1
     * Day 2 
     * Tips and tricks
