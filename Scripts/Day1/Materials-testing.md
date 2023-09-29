@@ -81,7 +81,7 @@ Nextflow and nf-core
 * Discuss nf-core params, tools, pipelines, documentation. As per the [customising nf-core workshop](https://sydney-informatics-hub.github.io/customising-nfcore-workshop/notebooks/2.1_design.html)
 
 Activities
-* Create sample sheet 
+* Create sample sheet?
 * Run help command 
 
 ## **QC run command** 
