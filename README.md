@@ -51,6 +51,7 @@ Testing with 2022 rnaseq workshop material on CVMFS. To access from the Nimbus C
 
 ```bash
 ls /cvmfs/data.biocommons.aarnet.edu.au/training_materials/SIH_training/IntroRNAseq_0922/
+ls /cvmfs/data.biocommons.aarnet.edu.au/training_materials/SIH_training/UnlockNfcore_0523/
 ```
 
 * You will need to cache with (ls) before trying to use the files 
